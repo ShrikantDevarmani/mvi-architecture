@@ -1,0 +1,3 @@
+include ':aacmvi'
+include ':app'
+rootProject.name = "MVI Explored"

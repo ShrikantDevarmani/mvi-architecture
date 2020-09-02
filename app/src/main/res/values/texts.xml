@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="FontMontSerratRegular">
+        <item name="android:fontFamily">@font/montserrat_light</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:textColor">@color/grey_900</item>
+    </style>
+
+    <style name="FontMontSerratLight">
+        <item name="android:fontFamily">@font/montserrat_light</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:textColor">@color/grey_900</item>
+    </style>
+
+    <style name="FontMontSerratSemiBold">
+        <item name="android:fontFamily">@font/montserrat_semi_bold</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:textColor">@color/grey_900</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="FontMontSerratBold">
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:textColor">@color/grey_900</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.Expenses.Body1" parent="TextAppearance.MaterialComponents.Body1" />
+
+    <style name="TextAppearance.Expenses.Body2" parent="TextAppearance.MaterialComponents.Body2" />
+
+    <style name="TextAppearance.Expenses.Button" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

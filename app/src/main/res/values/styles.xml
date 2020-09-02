@@ -1,0 +1,130 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textViewStyle">@style/FontMontSerratRegular</item>
+        <item name="android:buttonStyle">@style/FontMontSerratSemiBold</item>
+        <!--font family to entire application-->
+        <!--<item name="android:fontFamily">@font/montserrat_medium</item>-->
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.MyApp.SmallComponent
+        </item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.MyApp.MediumComponent
+        </item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.MyApp.LargeComponent
+        </item>
+    </style>
+
+    <style name="ButtonStyle" parent="AppTheme">
+        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/grey_100</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:padding">@dimen/dp_10</item>
+    </style>
+
+    <style name="MyDialogStyle" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+    </style>
+
+    <style name="ShapeAppearance.MyApp.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">20dp</item>
+    </style>
+
+    <style name="ShapeAppearance.MyApp.MediumComponent" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">20dp</item>
+    </style>
+
+    <style name="ShapeAppearance.MyApp.LargeComponent" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">20dp</item>
+    </style>
+
+    <style name="SplashStyle" parent="AppTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@color/colorPrimary</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="LoginStyle" parent="AppTheme">
+        <item name="android:windowBackground">@color/colorPrimary</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+
+    <!--Toolbar style like home arrow color , hamburger icon color , toolbar color etc etc -->
+    <style name="ToolbarStyle">
+        <item name="colorControlNormal">@color/colorAccent</item>
+        <item name="android:background">?attr/colorPrimary</item>
+    </style>
+
+    <style name="MyTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/accent_black</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="TextAppearance.App.TextInputLayout" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="ThemeOverlay.Expenses.EditText.Dark" parent="ThemeOverlay.MaterialComponents.Dark">
+        <item name="colorControlNormal">@color/accent_white</item>
+        <item name="colorControlActivated">@color/accent_white</item>
+        <item name="colorControlHighlight">@color/accent_white</item>
+    </style>
+
+    <style name="EditTextWithBorderStyle" parent="android:Widget.EditText">
+        <item name="android:textColor">@color/grey_900</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:padding">@dimen/dp_12</item>
+        <item name="android:textAppearance">@style/FontMontSerratRegular</item>
+        <item name="android:background">@android:drawable/editbox_background_normal</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:inputType">textCapSentences</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <!-- Toolbars - Theme Overlay -->
+
+    <style name="ThemeOverlay.Toolbar" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+    </style>
+
+    <!-- TextInputLayout - Theme Overlay -->
+
+    <style name="ThemeOverlay.TextInputLayout" parent="ThemeOverlay.MaterialComponents.Light">
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+    </style>
+
+    <style name="MatchMatch">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="MatchWrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="WrapWrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="MatchWrapActionBarSize">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+    </style>
+
+</resources>

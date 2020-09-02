@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Learning</string>
+    <string name="description">Description</string>
+    <string name="title">Title</string>
+    <string name="register_now">Register Now</string>
+    <string name="get_started">Get Started</string>
+    <string name="skip">Skip</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="logout">Logout</string>
+    <string name="submit">Submit</string>
+    <string name="first_name">first name</string>
+    <string name="middle_name">middle name</string>
+    <string name="last_name">last name</string>
+    <string name="mobile_number">contact number</string>
+    <string name="email">email</string>
+    <string name="which_class">current class</string>
+    <string name="stream">stream</string>
+    <string name="division">division</string>
+    <string name="password">password</string>
+    <string name="user_registration">SignUp</string>
+    <string name="user_login">SignIn</string>
+    <string name="email_or_phone">Email or Phone</string>
+    <string name="no_account_yet">New User? Click Here to SignUp.</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="get_study_content">Online Learning Content</string>
+    <string name="recover">Recover Password</string>
+    <string name="recover_password_instruction">Enter your registered email or phone number to accomplish password recovery</string>
+    <string name="email_password_field_empty">Email or phone and password field should not be empty</string>
+</resources>
